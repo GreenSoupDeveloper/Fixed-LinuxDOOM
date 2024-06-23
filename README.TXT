@@ -81,14 +81,18 @@ Licensed under the GNU General Public License 2.0.
 
 HOW TO COMPILE:
 
-Just type the command "make" and there you go.
+In the "linuxdoom-1.10" folder, make a new folder called "linux" by using this command: "mkdir linux"
+
+Then, just type the command "make" and there you go.
 
 HOW TO RUN:
 
-First install Xephyr: sudo apt install xserver-xephyr
+First install Xephyr: "sudo apt install xserver-xephyr".
 
 Then, in the "linuxdoom-1.10/" directory, type "sudo Xephyr :2 -ac -screen 640x480x8", you can choose the resolution you want.
 
-Later, on the "linux/" folder, type "DISPLAY=:2"
+Later, go to the "linux/" folder, and type "DISPLAY=:2".
+
+Now, just type "./linuxxdoom".
 
 And done. Enjoy DOOM :)
