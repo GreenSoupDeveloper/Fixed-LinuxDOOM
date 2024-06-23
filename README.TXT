@@ -1,11 +1,3 @@
-
-
-HOW TO RUN:
-
-sudo Xephyr :2 -ac -screen 640x480x8
-
-on linux folder: DISPLAY=:2
-
 Here it is, at long last.  The DOOM source code is released for your
 non-profit use.  You still need real DOOM data to work with this code.
 If you don't actually own a real copy of one of the DOOMs, you should
@@ -86,3 +78,15 @@ John Carmack
 
 Copyright (c) ZeniMax Media Inc.
 Licensed under the GNU General Public License 2.0.
+
+HOW TO COMPILE:
+
+Just type the command ´´make´´ and there you go.
+
+HOW TO RUN:
+
+First install Xephyr: sudo apt install xserver-xephyr
+
+Then, in the ´´linuxdoom-1.10/´´ directory, type this command, you can choose the resolution you want: sudo Xephyr :2 -ac -screen 640x480x8
+
+Later, on the ´´linux/´´ folder, type: DISPLAY=:2
