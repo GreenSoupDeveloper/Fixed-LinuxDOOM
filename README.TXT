@@ -89,9 +89,11 @@ HOW TO RUN:
 
 First install Xephyr: "sudo apt install xserver-xephyr".
 
-Then, in the "linuxdoom-1.10/" directory, type "sudo Xephyr :2 -ac -screen 640x480x8", you can choose the resolution you want.
+Then, in the "linuxdoom-1.10/" folder, type "sudo Xephyr :2 -ac -screen 640x480x8", you can choose the resolution you want.
 
-Later, go to the "linux/" folder, and type "DISPLAY=:2".
+Later, open a new terminal window and go to the "linuxdoom-1.10/linux/" folder, and type "DISPLAY=:2".
+
+Now, you have to put the original "doom.wad" file from DOOM on the "linux/" folder, the name of the file has to be in lowercase.
 
 Now, just type "./linuxxdoom".
 
